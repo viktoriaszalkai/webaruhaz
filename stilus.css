@@ -14,9 +14,11 @@ body{
     padding: 5px;
 }
 main{
+    padding: 10px;
     background-color: rgb(226, 186, 186);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    gap: 5px;
     grid-template-areas:
         "n n n n n"
         "a a a a k"
@@ -99,6 +101,10 @@ img{
 }
 aside{
     background-color: white;
+    border-radius: 10px;
+}
+.tovabb{
+    text-align:end;
 }
 
 
