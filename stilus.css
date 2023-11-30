@@ -122,17 +122,18 @@ aside{
         "k"
         "f" ;    
 
-  }
-  nav ul{
+    }
+    nav ul{
 
-    grid-template-columns: 1fr;
-    gap: 5px;
-    list-style-type: none;
-    text-align: center;
+        grid-template-columns: 1fr;
+        gap: 5px;
+        list-style-type: none;
+        text-align: center;}
+    article{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            gap: 10px;
+        }
 }
-.kepekSection{
-    grid-template-columns: 1fr;
-    gap: 5px;
-    text-align: center;
-}
-}
+
+
